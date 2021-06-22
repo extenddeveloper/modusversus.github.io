@@ -1,0 +1,109 @@
+.single-portfolio {
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+.portfolio-img img{
+    height: 260px;
+    width: 550px;
+}
+.portfolio-list {
+	margin-bottom: 50px;
+}
+.portfolio-list ul li a {
+	background: #98a3a3;
+	color: #fff;
+	padding: 5px 10px;
+	font-size: 15px;
+	font-weight: 600;
+	border-radius: 5px;
+	border-bottom: 3px solid #7f8c8c;
+	margin-right: 10px;
+}
+.portfolio-list ul li a:focus{
+	background: #62a29e;
+	border-bottom: 3px solid #528b86;
+}
+.portfolio-area {
+	padding: 60px 0;
+	background: #f3f3f3;
+}
+.portfolio-content h3 {
+	color: #7f8c8c;
+	font-size: 20px;
+	margin-bottom: 30px;
+	line-height: 20px;
+}
+.portfolio-content p {
+	color: #7f8c8c;
+    margin-bottom: 0;
+}
+.portfolio-link {
+	margin-top: 35px;
+	overflow: hidden;
+}
+.portfolio-link .read-more {
+	font-size: 16px;
+	margin-top: 0px;
+    float: right;   
+    transition: all .4s ease 0s;
+    background: #76caca;
+    border-bottom-color: #62bdbd;
+
+}
+.portfolio-link .read-more:hover{
+    background: #e8645a;
+    border-bottom-color: #e2534b;
+}
+.portfolio-link i {
+	font-size: 26px;
+	color: #fff;
+	margin-right: 18px;
+	float: left;
+	background: #528b86;
+	border-radius: 5px;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+    transition: all .4s ease 0s;
+}
+.portfolio-link:hover i{
+    background: #e2534b;
+}
+.portfolio-link:hover a{
+    color: #e2534b;
+}
+
+.portfolio-link a {
+	color: #7f8c8c;
+	font-size: 16px;
+	font-weight: 400;
+    transition: all .4s ease 0s;
+}
+.pagination {
+	text-align: center;
+	display: block;
+}
+.pagination ul li a, .pagination ul li span{
+    width: 35px;
+	height: 35px;
+	line-height: 35px;
+	background: #8c9898;
+	display: inline-block;
+	color: #fff;
+	font-weight: 400;
+	font-size: 18px;
+	text-align: center;
+	margin: 4px;
+	border-radius: 5px;
+    border-bottom: 2px solid #7f8c8c;
+    transition: all .4s ease 0s;
+}
+.pagination ul li a:hover{
+    background: #E45347;
+    border-bottom: 3px solid #DD5349;
+}
+.pagination ul li a:focus{
+    background: #68958E;
+    border-bottom: 3px solid #548D86  DD5349;
+}

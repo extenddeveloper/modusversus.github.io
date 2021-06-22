@@ -1,0 +1,84 @@
+/*=================================================
+    Home Style-3 
+=================================================*/
+.header {
+	background: #A65980;
+}
+.navbar-default .navbar-nav > li > a:focus {
+	color: #fff;
+	background-color: #8B4A6B;
+    border-bottom: 3px solid #743E59;
+    border-radius: 5px;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    background: #26B9E1;
+    border-bottom: 3px solid #20A8DA;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+    background: #26B9E1;
+    border-bottom: 3px solid #20A8DA;
+}
+.dropdown-menu {
+    background: #26B9E1;
+}
+.dropdown-menu > li > a {
+    background: #37B1DE;
+}
+.dropdown-menu > li > a:hover{
+    background: #A65980;
+    color: #fff;
+}
+.dropdown-menu > li:first-child::before {
+	background: #26B9E1;
+}
+.slider-area .owl-nav div {
+	background: #26B9E1;
+}
+.slider-area .owl-dot.active {
+	background: #26B9E1;
+}
+.slider-content h1 {
+	background: #20A8DA;
+}
+.read-more {
+	background: #26B9E1;
+}
+.service-box .box-icon i{
+	color: #B86B99;
+}
+.service-box:hover .box-icon i{
+	color: #26B9E1;
+}
+.service-box .read-more{
+    background: #B86B99;
+}
+.service-box:hover .read-more{
+    background: #26B9E1;
+}
+.section-title h1 {
+	color: #26B9E1;
+}
+.choose-list ul li a i {
+	color: #A65980;
+}
+.counter-content a {
+	color: #DC5925;
+}
+.client-name h5{
+	color: #A65980;
+}
+.footer-area {
+	background: #A65980;
+}
+.footer-bottom {
+	background: #955073;
+}
+.footer-title h4 {
+	color: #552D42;
+	font-size: 20px;
+}
+DC5925
+70C570

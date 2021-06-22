@@ -1,0 +1,80 @@
+/*=================================================
+    Home Style-2 
+=================================================*/
+.header {
+	background: #70C570;
+}
+.navbar-default .navbar-nav > li > a:focus {
+	color: #fff;
+	background-color: #62a29e;
+    border-bottom: 3px solid #528b86;
+    border-radius: 5px;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    background: #E06A3B;
+    border-bottom: 3px solid #DC5925;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+    background: #E06A3B;
+    border-bottom: 3px solid #DC5925;
+}
+.dropdown-menu {
+    background: #DC5925;
+}
+.dropdown-menu > li > a {
+    background: #E06A3B;
+}
+.dropdown-menu > li > a:hover{
+    background: #70C570;
+    color: #fff;
+}
+.slider-area .owl-nav div {
+	background: #DC5925;
+}
+.slider-area .owl-dot.active {
+	background: #DC5925;
+}
+.slider-content h1 {
+	background: #DC5925;
+}
+.read-more {
+	background: #DC5925;
+}
+.service-box .box-icon i{
+	color: #70C570;
+}
+.service-box:hover .box-icon i{
+	color: #DC5925;
+}
+.service-box .read-more{
+    background: #70C570;
+}
+.service-box:hover .read-more{
+    background: #DC5925;
+}
+.section-title h1 {
+	color: #DC5925;
+}
+.choose-list ul li a i {
+	color: #70C570;
+}
+.counter-content a {
+	color: #DC5925;
+}
+.client-name h5{
+	color: #70C570;
+}
+.footer-area {
+	background: #70C570;
+}
+.footer-bottom {
+	background: #65B165;
+}
+.footer-title h4 {
+	color: #386238;
+}
+DC5925
+70C570

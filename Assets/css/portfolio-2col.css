@@ -1,0 +1,124 @@
+.portfolio-list {
+	margin-bottom: 40px;
+	margin-top: 50px;
+}
+.portfolio-list ul li a {
+	background: #98a3a3;
+	color: #fff;
+	padding: 5px 10px;
+	font-size: 15px;
+	font-weight: 600;
+	border-radius: 5px;
+	border-bottom: 3px solid #7f8c8c;
+	margin-right: 10px;
+}
+.portfolio-list ul li a:hover{
+	background: #E45347;
+    border-bottom: 3px solid #DD5349;
+}
+.portfolio-list ul li a:focus{
+	background: #62a29e;
+	border-bottom: 3px solid #528b86;
+}
+.portfolio-area, .3col{
+	padding: 60px 0;
+	background: #f3f3f3;
+}
+.single-portfolio {
+	float: left;
+	margin:15px;
+	width: calc(50% - 30px);
+	float: left;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+.col3 {
+	width: calc(33% - 17px);
+	margin: 10px;
+	float: left;
+	float: left;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+}
+.col4 {
+	width: calc(24% - 9px);
+	margin: 10px;
+	float: left;
+	float: left;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+	height: 100%;
+}
+.portfolio-hover {
+	background: #83CCC5;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    opacity: 0;
+    transform: scale(0);
+    transition: all .4s ease 0s;
+}
+.single-portfolio:hover .portfolio-hover{
+    opacity: 1;
+    transform: scale(1);
+}
+.hover-icon{
+    margin-bottom: 10px;
+}
+.hover-icon i {
+	color: #fff;
+	width: 35px;
+	height: 35px;
+	background: #76B8B4;
+	line-height: 35px;
+	border-radius: 5px;
+	font-size: 20px;
+    transition: all .4s ease 0s;
+}
+.hover-icon i:hover{
+    background: #E2534B;
+}
+.portfolio-hover span {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+	display: block;
+}
+
+.pagination {
+	text-align: center;
+	display: block;
+}
+.pagination ul li a, .pagination ul li span{
+    width: 35px;
+	height: 35px;
+	line-height: 35px;
+	background: #8c9898;
+	display: inline-block;
+	color: #fff;
+	font-weight: 400;
+	font-size: 18px;
+	text-align: center;
+	margin: 4px;
+	border-radius: 5px;
+    border-bottom: 2px solid #7f8c8c;
+    transition: all .4s ease 0s;
+}
+.pagination ul li a:hover{
+    background: #E45347;
+    border-bottom: 3px solid #DD5349;
+}
+.pagination ul li a:focus{
+    background: #68958E;
+    border-bottom: 3px solid #548D86  DD5349;
+}
